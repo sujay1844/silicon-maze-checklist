@@ -83,9 +83,9 @@ function Checklist() {
   }
 
   return (
-    <div className="flex min-h-full flex-col items-center justify-center">
-      <div className="flex w-full max-w-sm flex-col rounded bg-gray-100 px-3 py-4 shadow-xl">
-        <p className="ml-2 flex items-center text-lg font-semibold text-gray-700">
+    <div className="">
+      <div className="">
+        <p className="">
           <ListBulletIcon className="mr-3 h-5 w-5" />
           Checklist
         </p>
@@ -97,7 +97,7 @@ function Checklist() {
           {items.map((item) => (
             <label
               key={item.id}
-              className={`group flex w-full cursor-pointer select-none items-center rounded p-2 text-sm font-medium transition-colors duration-300 checked:text-gray-300 hover:bg-gray-200 ${
+              className={`${
                 item.checked
                   ? "text-gray-400 line-through"
                   : "text-gray-800"
@@ -107,7 +107,7 @@ function Checklist() {
                 onChange={() => handleChange(item.id)}
                 checked={item.checked}
                 type="checkbox"
-                className="mr-4 h-4 w-4 rounded-sm border-2 border-gray-300 text-sky-600 transition-colors duration-300 focus:ring-0 focus:ring-offset-0 focus-visible:ring-2 focus-visible:ring-sky-600/50 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-100 group-active:border-sky-600 group-active:checked:text-sky-600/25"
+                className=""
               />
               {item.text}
             </label>
