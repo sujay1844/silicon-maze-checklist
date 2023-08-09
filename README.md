@@ -4,6 +4,8 @@ Here's the present state of the project: https://checklist-gilt.vercel.app/
 
 It should look like this:  https://checklist-ans.vercel.app/
 
+Bonus points if you can make it better than the example.
+
 ## Getting Started
 
 Clone this project and install dependencies:
