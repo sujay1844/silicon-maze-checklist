@@ -1,4 +1,4 @@
-Here's the present state of the project: checklist-gilt.vercel.app
+Here's the present state of the project: https://checklist-gilt.vercel.app/
 
 ## The Mission
 

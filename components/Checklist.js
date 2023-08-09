@@ -14,12 +14,6 @@ function Checklist() {
     { id: "7", text: "Seven", checked: true },
   ]);
 
-  /*
-    🟢 This hook gives us an `animate()` function that's scoped to a
-    specific element and its children. The `animate()` function
-    is perfect for imperatively kicking off animations, for example
-    in response to an event – exactly what we're doing in this demo.
-  */
   let [ref, animate] = useAnimate();
 
   function handleChange(id) {
@@ -30,21 +24,13 @@ function Checklist() {
 
     setItems(newItems);
 
-    // 🟢 If every item has been checked...
+    
     if (newItems.every((item) => item.checked)) {
       let lastCompletedItem = items.findIndex((item) => !item.checked);
       let random = Math.random();
 
       if (random < 1 / 3) {
-        /*
-          🟢 ...animate each input in the list. The animation uses an array
-          of keyframes to scale each input from 100% to 125% then back to 100%
-          in sequence. The `delay` option is used along with the `stagger`
-          helper to stagger the individual animimations. Stagger accepts
-          a `from` option to use as a starting point, which we set to
-          the index of the last completed item.
-        */
-        animate(
+          animate(
           "input",
           { scale: [1, 1.25, 1] },
           {
@@ -66,10 +52,7 @@ function Checklist() {
           }
         );
       } else {
-        /*
-          🟢 This final effect is a "shake", achieved by keyframing the `rotate` prop.
-          One of the three effects are randomly selected each time the list is completed.
-        */
+        
         animate(
           "input",
           { rotate: [0, 10, -10, 0] },
@@ -90,9 +73,7 @@ function Checklist() {
           Checklist
         </p>
 
-        {/*
-           🟢 Attach the ref from `useAnimate()` to scope the animate() function to this subtree.
-        */}
+        
         <div ref={ref} className="mt-4">
           {items.map((item) => (
             <label
