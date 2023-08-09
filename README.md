@@ -11,8 +11,8 @@ Bonus points if you can make it better than the example.
 Clone this project and install dependencies:
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/Shubham-Rasal/checklist.git
+cd https://github.com/Shubham-Rasal/checklist.git
 npm install
 # or
 yarn
@@ -35,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The main checklist component is in `app/components/Checklist.js`. You can start editing the file and see the changes in the browser.
 
 ## Learn More
 
