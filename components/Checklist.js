@@ -39,10 +39,7 @@ function Checklist() {
           }
         );
       } else if (random < 2 / 3) {
-        /*
-          🟢 The first animation is a "bounce" effect. This second one is
-          a "shimmy" effect, achieved by keyframing the `x` prop.
-        */
+       
         animate(
           "input",
           { x: [0, 2, -2, 0] },
@@ -66,9 +63,9 @@ function Checklist() {
   }
 
   return (
-    <div className="">
-      <div className="">
-        <p className="">
+    <div>
+      <div>
+        <p>
           <ListBulletIcon className="mr-3 h-5 w-5" />
           Checklist
         </p>
