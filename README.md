@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here's the present state of the project: checklist-gilt.vercel.app
+
+## The Mission
+
+It should look like this: 
 
 ## Getting Started
 
