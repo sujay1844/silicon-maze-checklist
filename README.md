@@ -41,3 +41,8 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 
+
+In a galaxy far, far away, a group of rebels embarked on a critical mission against the Empire.
+Their success relied on an outdated checklist UI that hindered their progress and caused confusion.
+A talented developer named Leia, skilled in the ways of Tailwind CSS, joined their cause.
+Can you help Leia build a new checklist UI that will help the rebels complete their mission?
