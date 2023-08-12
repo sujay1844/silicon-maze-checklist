@@ -1,3 +1,6 @@
+This project is hosted on https://silicon-maze-checklist.vercel.app/
+
+
 Here's the present state of the project: https://checklist-gilt.vercel.app/
 
 ## The Mission
